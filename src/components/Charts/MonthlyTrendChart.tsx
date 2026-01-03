@@ -100,6 +100,8 @@ export function MonthlyTrendChart({ contributions, target }: MonthlyTrendChartPr
         withInnerLines={false}
         fromZero
         showValuesOnTopOfBars
+        yAxisLabel=""
+        yAxisSuffix=""
       />
     </View>
   );
